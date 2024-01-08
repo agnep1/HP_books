@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(https://uswalldecor.com/cdn/shop/files/RMK12279M.jpg?v=1695064926);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Handlee', cursive;
+    font-weight: 900;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+ li a {
+    text-decoration: none;
+    color: #565349;
+ }
+
+section {
+    /* border: 5px solid green; */
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    padding: 0 20px 100px;
+}
+section img {
+    height: 200px;
+    
+}
+
+section p {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: black;
+    
+}
+
+.title {
+    font-family: 'Handlee';
+    font-weight: 600;
+    font-size: 20px;
+    margin-block-start: 0;
+}
